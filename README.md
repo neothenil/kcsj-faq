@@ -47,6 +47,7 @@ WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 说明没有LSQsub中的xml文件没有改对，按照上面的说明再仔细改一遍。
 
 3. 使用手册中的目录结构和实际的结构不一样
+
 使用手册中说：
 
 ![Q3_1](img/Q3_1.png)
