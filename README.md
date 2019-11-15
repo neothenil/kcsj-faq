@@ -57,7 +57,3 @@ WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 ![Q3_2](img/Q3_2.png)
 
 这个是因为使用手册中的这一段描述是针对源码的说明，用于课程设计的压缩包中不包含源码。
-
-
-### LICENSE
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
