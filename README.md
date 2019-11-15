@@ -1,6 +1,7 @@
 # kcsj-faq（课程设计常见问题汇总）
 
 1. 报错：
+
 ![Q1](img/Q1.png)
 
 使用Bamboo-Lattice的时候，需要先运行一个组件的主干卡片，其特点是文件名中含有`main`，
@@ -8,6 +9,7 @@
 先跑哪个再跑哪个没有影响。
 
 2. 报错：
+
 ![Q2_1](img/Q2_1.png)
 
 首先确认输入卡片的`path`中指定的数据库的位置是否正确。当卡片中填写的路径如下时：
@@ -23,11 +25,20 @@
 然后需要确保database下的ENDF70.69文件夹中的三个子文件夹下的xml文件中有正确的路径。
 WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 还有LSQIRsub下面的LSQsubdir.xml。这三个文件中均有一个`path`标签，需要确保每个文件
-对应的`path`标签中应为该文件所在的文件夹路径。如下图所示：
+对应的`path`标签中应为该文件所在的文件夹路径。假如database在E:\Bamboo路径下，那么
+这三个文件中的`path`分别如下：
 
-![A2_1](img/A2_1.jpg)
-![A2_2](img/A2_2.jpg)
-![A2_3](img/A2_3.jpg)
+```xml
+<path>E:\Bamboo\database\ENDF70.69\WIMSN</path>
+```
+
+```xml
+<path>E:\Bamboo\database\ENDF70.69\LSQsub</path>
+```
+
+```xml
+<path>E:\Bamboo\database\ENDF70.69\LSQIRsub</path>
+```
 
 如果又出现了如下报错：
 
