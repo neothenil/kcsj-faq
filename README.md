@@ -57,3 +57,10 @@ WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 ![Q3_2](img/Q3_2.png)
 
 这个是因为使用手册中的这一段描述是针对源码的说明，用于课程设计的压缩包中不包含源码。
+
+4. 报错：
+
+![Q4](img/Q4.png)
+
+这个问题一般会出现在AMD的CPU上，Bamboo-Lattice现无法在AMD的CPU上正常运行。
+建议换台Intel的电脑运行。
