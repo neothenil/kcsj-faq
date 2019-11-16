@@ -76,4 +76,6 @@ WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 
 6. Bamboo-Lattice的自动运行
 
-参考Bamboo-Frame使用手册。
+参考Bamboo-Frame使用手册。在使用Bamboo-Frame自动运行前，务必仔细检查每个输入文件，确保
+其可以正常运行。因为使用Bamboo-Frame运行Bamboo-Lattice的时候，如果有单独的几个卡片
+出错，它不会立即停止运行，而是等待其他没有问题的卡片运行结束后再显示哪些卡片运行出错。
