@@ -64,3 +64,16 @@ WIMSN下面的WIMSNdir.xml，LSQsub下面的LSQsubdir.xml，
 
 这个问题一般会出现在AMD的CPU上，Bamboo-Lattice现无法在AMD的CPU上正常运行。
 建议换台Intel的电脑运行。
+
+5. Bamboo-Lattice的手动运行
+
+使用Bamboo-Lattice针对一个组件进行计算时，先把Bamboo-Lattice的可执行程序和该组件的
+主干卡放在一个文件夹中，将输入文件重命名为input.xml，然后在命令行中运行Bamboo-Lattice。
+等它运行完毕后，把包含可执行程序、输入及输出的整个文件夹复制n份
+（n为该组件的分支卡的数目）。再把各个分支卡分别复制到这些文件夹中，每个文件夹对应一个
+分支卡，并把每个文件夹中的分支卡命名为input.xml，最后再在命令行中运行，可以同时
+运行多个分支卡片。
+
+6. Bamboo-Lattice的自动运行
+
+参考Bamboo-Frame使用手册。
