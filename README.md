@@ -1,5 +1,37 @@
 ## 课程设计常见问题汇总
 
+### 目录
+- [第一部分](#第一部分)
+- [第二部分](#第二部分)
+
+### 第二部分
+1. Visit和Python下载地址
+
+[Visit](https://github.com/visit-dav/visit/releases/download/v3.0.2/visit3.0.2_x64.exe)
+
+[Python](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
+
+2. 运行
+
+```
+python bamboo generate input-C1.xml
+python bamboo core 1
+```
+
+上面的命令指的是在input-C1.xml所在的目录下打开命令行窗口，输入上述命令运行。
+
+3. 示例卡片运行报错
+
+一般是在运行第二条命令的时候会报错，这是因为Bamboo-Core的运行需要一些dll文件。
+这些文件可以在第一部分下载的文件中找到。例如：
+
+![Q5](img/Q5.png)
+
+找到之后，把该目录放在PATH环境变量中：
+
+![Q5_2](img/Q5_2.png)
+
+### 第一部分
 1. 报错：
 
 ![Q1](img/Q1.png)
