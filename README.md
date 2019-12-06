@@ -36,6 +36,40 @@ python bamboo core 1
 反应性系数的输出存放在RECOE.DAT文件中，输出的三行分别是多普勒温度系数，
 慢化剂温度系数和硼微分价值。每行有两个值，表示两种不同的计算方法得到的结果。
 
+5. 如何使用Visit画图
+
+打开Visit后，点击`Open`按钮：
+
+![Q6_1](img/Q6_1.png)
+
+在弹出的窗口中选择vtk文件，注意把`File grouping`设为`Off`：
+
+![Q6_2](img/Q6_2.png)
+
+点击`Add > Pseudocolor > {文件名}`：
+
+![Q6_3](img/Q6_3.png)
+
+点击`Operators > Selection > Box`：
+
+![Q6_4](img/Q6_4.png)
+
+点击左侧的箭头展开查看对文件的所有操作：
+
+![Q6_5](img/Q6_5.png)
+
+双击`Box`设置切割的选项：
+
+![Q6_6](img/Q6_6.png)
+
+单击`Draw`：
+
+![Q6_7](img/Q6_7.png)
+
+大功告成：
+
+![Q6_8](img/Q6_8.png)
+
 ### 第一部分
 1. 报错：
 
